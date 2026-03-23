@@ -1,6 +1,9 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
+from transformers import AutoTokenizer, AutoModel
 
+import os
+token = os.getenv("HF_TOKEN")
 # Load tokenizer and model
 tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-small")
 model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-small")
