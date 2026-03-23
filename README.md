@@ -29,7 +29,6 @@ BlenderBot
 
 These models are fine-tuned for generating human-like dialogue.
 
-📂 Project Structure
 ai-mental-health-chatbot/
 │
 ├── app.py                # Flask backend API
@@ -39,6 +38,7 @@ ai-mental-health-chatbot/
 ├── logs/                 # User chat logs
 ├── requirements.txt      # Dependencies
 └── README.md             # Project documentation
+
 ⚙️ Installation & Setup
 1. Clone the Repository
 git clone https://github.com/your-username/ai-chatbot.git
