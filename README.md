@@ -28,7 +28,7 @@ DialoGPT
 BlenderBot
 
 These models are fine-tuned for generating human-like dialogue.
-
+📂 Project Structure
 ai-mental-health-chatbot/
 │
 ├── app.py                # Flask backend API
@@ -36,7 +36,7 @@ ai-mental-health-chatbot/
 ├── templates/            # HTML frontend (if using Flask)
 ├── static/               # CSS / JS files
 ├── logs/                 # User chat logs
-├── requirements.txt      # Dependencies
+├── requirements.txt      # Project dependencies
 └── README.md             # Project documentation
 
 ⚙️ Installation & Setup
