@@ -34,11 +34,17 @@ These models are fine-tuned for generating human-like dialogue.
 ai-mental-health-chatbot/
 │
 ├── app.py                # Flask backend API
+
 ├── model/                # Fine-tuned model (optional)
+
 ├── templates/            # HTML frontend (if using Flask)
+
 ├── static/               # CSS / JS files
+
 ├── logs/                 # User chat logs
+
 ├── requirements.txt      # Project dependencies
+
 └── README.md             # Project documentation
 
 ⚙️ Installation & Setup
